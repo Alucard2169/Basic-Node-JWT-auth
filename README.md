@@ -1,3 +1,6 @@
+# LIVE SITE
+https://anime-jwt-authenticate.herokuapp.com/
+
 # Basic-Node-JWT-auth
 
 use 
@@ -12,8 +15,7 @@ to run the project
 after the project starts running
 
 
-# LIVE SITE
-https://anime-jwt-authenticate.herokuapp.com/
+
 
 This is a basic web app demonstrating the JWT authentication system. 
 
