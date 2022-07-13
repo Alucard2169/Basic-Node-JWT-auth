@@ -14,13 +14,13 @@ app.use(cookie());
 
 //view engine
 app.set('view engine', 'ejs');
-
+const port = process.env.port;
 // database connection
 const uri = `mongodb+srv://Alucard:${process.env.db_Pass}@cluster2.gqvv9f7.mongodb.net/authentication`;
 mongoose.connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true})
-    .then((result) => { app.listen(3000, () => { console.log('connected') }) })
+    .then((result) => { app.listen(port, () => { console.log('connected') }) })
     .catch((err) => console.log(err));
 
 
