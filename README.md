@@ -1,8 +1,11 @@
 # Basic-Node-JWT-auth
 
-use  # npm install
+use 
+# npm install
 to install all the packages
-use  # node app.js
+
+use
+# node app.js
 to run the project 
 
 # visit localhost:3000
