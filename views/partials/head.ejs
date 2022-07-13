@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Database</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="shortcut icon" href="/10-modified.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/"><img src="/10-modified.png" alt="home" class="homeImg"></a></li>
+            <div class="left">
+                <% if(user){ %>
+                    <li><h3>welcome, <%= user.email %></h3></li>
+                    <li><a href="/logout">LogOut</a></li>
+                <% } else {  %>
+                    <li><a href="/signUp">SignUp</a></li>
+                    <li><a href="/login">Login</a></li>
+                    
+                <%}%>
+            </div>
+        </ul>
+    </nav>
+    
+    

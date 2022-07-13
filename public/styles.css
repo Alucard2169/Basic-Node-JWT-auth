@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background: url("/1079547.png") no-repeat top fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+nav{
+    background-color: rgb(70, 188, 235);
+    padding: 1rem 1.5rem;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+ul h3{
+    font-size: 1rem;
+    font-family: "Poppins",sans-serif;
+    color: white;
+}
+ul a .homeImg{
+    width: 8%;
+}
+
+ul .left{
+    display: flex;
+    margin-left: auto;
+    gap: 1rem;
+    width: fit-content;
+    
+}
+
+ul .left li a{
+    padding: .8rem 1.2rem;
+    border-radius: 100px;
+    background-color: white;
+    color: rgb(70, 188, 235);
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: relative;
+}
+.view{
+    position: absolute;
+    top: 15rem;
+    right: 15rem;
+    color: white;
+    background-color: #1E5162;
+    border-radius: 100px;
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto',sans-serif;
+}
+
+
+
+.back{
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    background-color: rgb(70, 188, 235);
+    color: white;
+    padding: .6rem 1rem;
+    border-radius: 100px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin:5rem auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto 1fr;
+    gap:2rem;
+    padding: 2rem 0;
+    border-radius: 10px;
+    width: 80%;
+    justify-items: center;
+    align-items: center;
+    background-color: rgba(250, 249, 249,.5);
+}
+
+.card{
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    border-bottom: 2px gray solid;
+}
+.container .card .animeImg{
+    width: 100%;
+}
+
+.container .card .animeImg img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.container .card .name{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.account{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 96, 38,.8);
+    width: 30%;
+    padding: 1.5rem;
+    margin: auto;
+    gap: 1rem;
+    border-radius: 10px;
+}
+.account label{
+    font-family: "poppins",sans-serif;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.account input{
+    font-family: 'Roboto',sans-serif;
+    border: none;
+    border-radius: 100px;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+.account .submit{
+    border: none;
+    background-color: white;
+    border-radius: 100px;
+    padding: 1rem;
+    color:rgba(255, 96, 38,.8);
+    font-size: 1.4rem;
+    width: 50%;
+    margin:1rem auto;
+    cursor: pointer;
+}
+
+.account .sign{
+    color: orangered;
+    background-color: white ;
+    font-family: 'Roboto',sans-serif;
+    padding: 1rem;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.account .error{
+    color: red;
+    font-size: .8rem;
+    font-family: "Roboto",sans-serif;
+    padding: .5rem;
+    background-color: white;
+    border-radius: 100px;
+    width: fit-content;
+}
+
+footer{
+    text-align: center;
+    margin-top: auto;
+}
+footer p{
+    color: white;
+    background-color: rgba(70, 188, 235,.5);
+}
