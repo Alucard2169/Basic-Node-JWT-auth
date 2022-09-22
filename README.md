@@ -1,5 +1,4 @@
-# LIVE SITE
-https://anime-jwt-authenticate.herokuapp.com/
+
 
 # Basic-Node-JWT-auth
 
